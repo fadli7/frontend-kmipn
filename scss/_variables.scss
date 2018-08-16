@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*font Variables*/
 $rob: 'Roboto', sans-serif;
 $open: 'Open Sans', sans-serif;
@@ -29,3 +30,36 @@ $pfont: #777777;
 
 
 
+=======
+/*font Variables*/
+$rob: 'Roboto', sans-serif;
+$open: 'Open Sans', sans-serif;
+
+
+/*Color Variables*/
+$baseColor: #6247ea; 
+$dip: #222222;
+$pfont: #777777; 
+
+
+/*=================== fonts ====================*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:300,300i,400,500,700');
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+
+
+
+>>>>>>> 31db8d0bca4cdf009e7a38eba12a4d1e83c9912a
