@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>KMIPN 2018</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="vendors/linericon/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+        .form-control{
+            box-shadow: none !important;
+            border-radius: 0px !important;
+            border-bottom: none !important;
+            border-top: none !important;
+            border-left: none !important;
+            border-right: none !important;
+        }
+        .popover.primary {
+            border-color:#337ab7;
+        }
+        .popover.primary>.arrow {
+            border-top-color:#337ab7;
+        }
+        .popover.primary>.popover-title {
+            color:#fff;
+            background-color:#337ab7;
+            border-color:#337ab7;
+        }
+        .popover.success {
+            border-color:#d6e9c6;
+        }
+        .popover.success>.arrow {
+            border-top-color:#d6e9c6;
+        }
+        .popover.success>.popover-title {
+            color:#3c763d;
+            background-color:#dff0d8;
+            border-color:#d6e9c6;
+        }
+        .popover.info {
+            border-color:#bce8f1;
+        }
+        .popover.info>.arrow {
+            border-top-color:#bce8f1;
+        }
+        .popover.info>.popover-title {
+            color:#31708f;
+            background-color:#d9edf7;
+            border-color:#bce8f1;
+        }
+        .popover.warning {
+            border-color:#faebcc;
+        }
+        .popover.warning>.arrow {
+            border-top-color:#faebcc;
+        }
+        .popover.warning>.popover-title {
+            color:#8a6d3b;
+            background-color:#fcf8e3;
+            border-color:#faebcc;
+        }
+        .popover.danger {
+            border-color:#ebccd1;
+        }
+        .popover.danger>.arrow {
+            border-top-color:#ebccd1;
+        }
+        .popover.danger>.popover-title {
+            color:#a94442;
+            background-color:#f2dede;
+            border-color:#ebccd1;
+        }
+        @-webkit-keyframes spinAround{from{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes spinAround{from{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}.is-divider,.is-divider-vertical{display:block;position:relative;border-top:.1rem solid #dbdbdb;height:.1rem;margin:2rem 0;text-align:center}.is-divider-vertical[data-content]::after,.is-divider[data-content]::after{background:#fff;color:#b5b5b5;content:attr(data-content);display:inline-block;font-size:.75rem;padding:.4rem .8rem;-webkit-transform:translateY(-1.1rem);transform:translateY(-1.1rem);text-align:center}@media screen and (min-width:769px),print{.is-divider-vertical{display:block;flex:none;width:auto;height:auto;padding:2rem;margin:0;position:relative;border-top:none;min-height:2rem}.is-divider-vertical::before{border-left:.1rem solid #dbdbdb;bottom:1rem;content:"";display:block;left:50%;position:absolute;top:1rem;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.is-divider-vertical[data-content]::after{position:absolute;left:50%;top:50%;padding:.1rem;-webkit-transform:translateY(-50%) translateX(-50%);transform:translateY(-50%) translateX(-50%)}}.is-divider-vertical.is-white,.is-divider.is-white{border-top-color:#fff}.is-divider-vertical.is-white[data-content]::after,.is-divider.is-white[data-content]::after{background:#0a0a0a;color:#fff}.is-divider-vertical.is-white::before,.is-divider.is-white::before{border-left-color:#fff}.is-divider-vertical.is-black,.is-divider.is-black{border-top-color:#0a0a0a}.is-divider-vertical.is-black[data-content]::after,.is-divider.is-black[data-content]::after{background:#fff;color:#0a0a0a}.is-divider-vertical.is-black::before,.is-divider.is-black::before{border-left-color:#0a0a0a}.is-divider-vertical.is-light,.is-divider.is-light{border-top-color:#f5f5f5}.is-divider-vertical.is-light[data-content]::after,.is-divider.is-light[data-content]::after{background:#363636;color:#f5f5f5}.is-divider-vertical.is-light::before,.is-divider.is-light::before{border-left-color:#f5f5f5}.is-divider-vertical.is-dark,.is-divider.is-dark{border-top-color:#363636}.is-divider-vertical.is-dark[data-content]::after,.is-divider.is-dark[data-content]::after{background:#f5f5f5;color:#363636}.is-divider-vertical.is-dark::before,.is-divider.is-dark::before{border-left-color:#363636}.is-divider-vertical.is-primary,.is-divider.is-primary{border-top-color:#00d1b2}.is-divider-vertical.is-primary[data-content]::after,.is-divider.is-primary[data-content]::after{background:#fff;color:#00d1b2}.is-divider-vertical.is-primary::before,.is-divider.is-primary::before{border-left-color:#00d1b2}.is-divider-vertical.is-link,.is-divider.is-link{border-top-color:#3273dc}.is-divider-vertical.is-link[data-content]::after,.is-divider.is-link[data-content]::after{background:#fff;color:#3273dc}.is-divider-vertical.is-link::before,.is-divider.is-link::before{border-left-color:#3273dc}.is-divider-vertical.is-info,.is-divider.is-info{border-top-color:#209cee}.is-divider-vertical.is-info[data-content]::after,.is-divider.is-info[data-content]::after{background:#fff;color:#209cee}.is-divider-vertical.is-info::before,.is-divider.is-info::before{border-left-color:#209cee}.is-divider-vertical.is-success,.is-divider.is-success{border-top-color:#23d160}.is-divider-vertical.is-success[data-content]::after,.is-divider.is-success[data-content]::after{background:#fff;color:#23d160}.is-divider-vertical.is-success::before,.is-divider.is-success::before{border-left-color:#23d160}.is-divider-vertical.is-warning,.is-divider.is-warning{border-top-color:#ffdd57}.is-divider-vertical.is-warning[data-content]::after,.is-divider.is-warning[data-content]::after{background:rgba(0,0,0,.7);color:#ffdd57}.is-divider-vertical.is-warning::before,.is-divider.is-warning::before{border-left-color:#ffdd57}.is-divider-vertical.is-danger,.is-divider.is-danger{border-top-color:#ff3860}.is-divider-vertical.is-danger[data-content]::after,.is-divider.is-danger[data-content]::after{background:#fff;color:#ff3860}.is-divider-vertical.is-danger::before,.is-divider.is-danger::before{border-left-color:#ff3860}.is-divider-vertical.is-black-bis,.is-divider.is-black-bis{border-top-color:#121212}.is-divider-vertical.is-black-bis[data-content]::after,.is-divider.is-black-bis[data-content]::after{background:#fff;color:#121212}.is-divider-vertical.is-black-bis::before,.is-divider.is-black-bis::before{border-left-color:#121212}.is-divider-vertical.is-black-ter,.is-divider.is-black-ter{border-top-color:#242424}.is-divider-vertical.is-black-ter[data-content]::after,.is-divider.is-black-ter[data-content]::after{background:#fff;color:#242424}.is-divider-vertical.is-black-ter::before,.is-divider.is-black-ter::before{border-left-color:#242424}.is-divider-vertical.is-grey-darker,.is-divider.is-grey-darker{border-top-color:#363636}.is-divider-vertical.is-grey-darker[data-content]::after,.is-divider.is-grey-darker[data-content]::after{background:#fff;color:#363636}.is-divider-vertical.is-grey-darker::before,.is-divider.is-grey-darker::before{border-left-color:#363636}.is-divider-vertical.is-grey-dark,.is-divider.is-grey-dark{border-top-color:#4a4a4a}.is-divider-vertical.is-grey-dark[data-content]::after,.is-divider.is-grey-dark[data-content]::after{background:#fff;color:#4a4a4a}.is-divider-vertical.is-grey-dark::before,.is-divider.is-grey-dark::before{border-left-color:#4a4a4a}.is-divider-vertical.is-grey,.is-divider.is-grey{border-top-color:#7a7a7a}.is-divider-vertical.is-grey[data-content]::after,.is-divider.is-grey[data-content]::after{background:#fff;color:#7a7a7a}.is-divider-vertical.is-grey::before,.is-divider.is-grey::before{border-left-color:#7a7a7a}.is-divider-vertical.is-grey-light,.is-divider.is-grey-light{border-top-color:#b5b5b5}.is-divider-vertical.is-grey-light[data-content]::after,.is-divider.is-grey-light[data-content]::after{background:#fff;color:#b5b5b5}.is-divider-vertical.is-grey-light::before,.is-divider.is-grey-light::before{border-left-color:#b5b5b5}.is-divider-vertical.is-grey-lighter,.is-divider.is-grey-lighter{border-top-color:#dbdbdb}.is-divider-vertical.is-grey-lighter[data-content]::after,.is-divider.is-grey-lighter[data-content]::after{background:rgba(0,0,0,.7);color:#dbdbdb}.is-divider-vertical.is-grey-lighter::before,.is-divider.is-grey-lighter::before{border-left-color:#dbdbdb}.is-divider-vertical.is-white-ter,.is-divider.is-white-ter{border-top-color:#f5f5f5}.is-divider-vertical.is-white-ter[data-content]::after,.is-divider.is-white-ter[data-content]::after{background:rgba(0,0,0,.7);color:#f5f5f5}.is-divider-vertical.is-white-ter::before,.is-divider.is-white-ter::before{border-left-color:#f5f5f5}.is-divider-vertical.is-white-bis,.is-divider.is-white-bis{border-top-color:#fafafa}.is-divider-vertical.is-white-bis[data-content]::after,.is-divider.is-white-bis[data-content]::after{background:rgba(0,0,0,.7);color:#fafafa}.is-divider-vertical.is-white-bis::before,.is-divider.is-white-bis::before{border-left-color:#fafafa}
+    </style>
+</head>
+<body data-spy="scroll" data-target="#mainNav" data-offset="70">
+
+<!--================Header Menu Area =================-->
+<header class="header_area">
+            <div class="main_menu" id="mainNav">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <a class="navbar-brand logo_h" href="index.html"><img src="img/tes.png" alt="" width="230"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                            <ul class="nav navbar-nav menu_nav ml-auto">
+                                <li class="nav-item active"><a class="nav-link" href="#home">BERANDA</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#tentang">TENTANG</a></li> 
+                                <li class="nav-item"><a class="nav-link" href="#feature">LOMBA</a></li> 
+                                <li class="nav-item"><a class="nav-link" href="#price">INFORMASI</a>
+                                <li class="nav-item"><a class="nav-link" href="register.html">DAFTAR</a>
+                                <li class="nav-item"><a class="nav-link" href="login.html">LOGIN</a> 
+                            </ul>
+                        </div> 
+                    </div>
+                </nav>
+            </div>
+        </header>
+<!--================Header Menu Area =================-->
+
+<!--================Home Banner Area =================-->
+<section class="home_banner_area" id="home">
+    <div class="banner_inner">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col col-sm-2"></div>
+                <div class="col-sm-8">
+                    <div class="">
+                        <div class="form">
+                            <h1 class="text-white text-xl-center">REGISTRASI KMIPN</h1>
+                            <div class="is-divider is-white"></div>
+                            <br>
+                            <div class="form-group">
+                                <div class="form-select">
+                                    <select title="kategori_lomba" id="" required>
+                                        <option value="" selected="selected">Pilih bidang lomba</option>
+                                        <option value="Cipta_Inovasi">Cipta Inovasi</option>
+                                        <option value="BisnisTik">Bisnis Tik</option>
+                                        <option value="Game_Development">Game Development</option>
+                                        <option value="E_Goverment">E-Goverment</option>
+                                        <option value="IoT">IoT (Internet of Things)</option>
+                                        <option value="Desain_Animasi">Desain Animasi</option>
+                                        <option value="Keamanan_Jaringan">Keamanan Jaringan</option>
+                                        <option value="Hackathon">Hackathon</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <input type="text" id="nama_tim" class="form-control" placeholder="Nama Tim" required>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-select">
+                                            <select title="kategori_lomba" id="kategori_lomba" required>
+                                                <option value="" selected="selected">Asal Politeknik</option>
+                                                <option value="1">Politeknik Elektronika Negeri Surabaya</option>
+                                                <option value="2">Politeknik Negeri Medan</option>
+                                                <option value="3">Politeknik Negeri Jakarta</option>
+                                                <option value="4">Politeknik Negeri Pontianak</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="is-divider is-white"></div>
+                            <h3 class="text-white text-lg-center text-uppercase">Data Ketua Tim</h3>
+                            <br>
+                            <div class="form-group">
+                                <input type="text" name="nama__ketua_tim" class="form-control" placeholder="Nama Ketua" required>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <input type="text" name="nim_nrp_ketua_tim" class="form-control" placeholder="NIM / NRP" required>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <input type="text" name="jurusan_ketua_tim" class="form-control" placeholder="Jurusan" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group text-white">
+                                <div class="form-check-inline">
+                                    <label class="form-check-label" for="laki_laki">
+                                        <input type="radio" class="form-check-input" id="laki_laki" name="laki_laki" value="option1" checked required>Laki-Laki
+                                    </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label" for="perempuan">
+                                        <input type="radio" class="form-check-input" id="perempuan" name="perempuan" value="option2" required>Perempuan
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <input type="text" name="email_ketua_tim" class="form-control" placeholder="Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <input type="text" name="telf_ketua_tim" class="form-control" placeholder="No. Telfon" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <input type="text" name="tempat_lahir_ketua_tim" class="form-control" placeholder="Tempat Lahir" required>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <input type="date" name="tanggal_lahir_ketua_tim" class="form-control" placeholder="Tanggal Lahir" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="alamat_ketua_tim" class="single-textarea" placeholder="Alamat lengkap" required></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="password" class="form-control" name="password" id="password" placeholder="Password" required data-toggle="popover" title="Password Strength" data-content="Enter Password...">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="password" class="form-control" name="confirm" id="confirm" placeholder="Confirm Password" required>
+                                </div>
+                            </div>
+                            <input type="submit" name="register" id="register" value="Register" class="genric-btn primary radius pull-right">
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-2"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
+
+<!--================ start footer Area  =================-->
+<footer class="footer-area p_120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-6">
+                        <div class="single-footer-widget news_widgets">
+                            <h6 class="footer_title">HUBUNGI KAMI</h6>
+                            <p><strong>Ruang Kemahasiswaan Gedung D3 Lantai 1<br />Politeknik Elektronika Negeri Surabaya (PENS)<br />Jalan Raya ITS Sukolilo, Surabaya 60111</strong></p>
+                            <br />
+                            <p>Aflah : +6281555628485</p>
+                            <p>Fadli : +6282232666431</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-sm-6">
+                        <div class="single-footer-widget news_widgets">
+                            <h6 class="footer_title">SPONSOR</h6>
+                            <img src="img/im3.svg" alt="" width="149">
+                        </div>
+                    </div>  
+                </div>
+                <div class="row footer-bottom d-flex justify-content-between align-items-center">
+                    <p class="col-lg-8 col-md-8 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> KMIPN 2018 - Teknik Informatika Politeknik Elektronika Negeri Surabaya</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    <div class="col-lg-4 col-md-4 footer-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+<!--================ End footer Area  =================-->
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/stellar.js"></script>
+<script src="vendors/lightbox/simpleLightbox.min.js"></script>
+<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="vendors/isotope/isotope-min.js"></script>
+<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+<script src="vendors/counter-up/jquery.counterup.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+<script src="js/theme.js"></script>
+
+
+<!--================ Confirm Password JavaScript =================-->
+<script>
+    $(document).ready(function(){
+
+        //minimum 8 characters
+        var bad = /(?=.{8,}).*/;
+        //Alpha Numeric plus minimum 8
+        var good = /^(?=\S*?[a-z])(?=\S*?[0-9])\S{8,}$/;
+        //Must contain at least one upper case letter, one lower case letter and (one number OR one special char).
+        var better = /^(?=\S*?[A-Z])(?=\S*?[a-z])((?=\S*?[0-9])|(?=\S*?[^\w\*]))\S{8,}$/;
+        //Must contain at least one upper case letter, one lower case letter and (one number AND one special char).
+        var best = /^(?=\S*?[A-Z])(?=\S*?[a-z])(?=\S*?[0-9])(?=\S*?[^\w\*])\S{8,}$/;
+
+        $('#password').on('keyup', function () {
+            var password = $(this);
+            var pass = password.val();
+            var passLabel = $('[for="password"]');
+            var stength = 'Weak';
+            var pclass = 'danger';
+            if (best.test(pass) === true) {
+                stength = 'Very Strong';
+                pclass = 'success';
+            } else if (better.test(pass) === true) {
+                stength = 'Strong';
+                pclass = 'warning';
+            } else if (good.test(pass) === true) {
+                stength = 'Almost Strong';
+                pclass = 'warning';
+            } else if (bad.test(pass) === true) {
+                stength = 'Weak';
+            } else {
+                stength = 'Very Weak';
+            }
+
+            var popover = password.attr('data-content', stength).data('bs.popover');
+            popover.setContent();
+            popover.$tip.addClass(popover.options.placement).removeClass('danger success info warning primary').addClass(pclass);
+
+        });
+
+        $('input[data-toggle="popover"]').popover({
+            placement: 'top',
+            trigger: 'focus'
+        });
+
+    })
+</script>
+</body>
+</html>
