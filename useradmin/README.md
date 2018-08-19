@@ -1,88 +1,87 @@
-# ElaAdmin HTML5 Admin Dashboard Template
-**ElaAdnin** is a responsive Bootstrap 4 Admin Template. It provides you with a collection of ready to use code snippets and utilities, custom pages, loads of charts, dashboard variations, a collection of applications and some useful widgets. Preview of this awesome admin template available here: https://colorlib.com/polygon/elaadmin/index.html
+# [Light Bootstrap Dashboard](http://www.creative-tim.com/product/light-bootstrap-dashboard)
+[![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
 
-# Preview
+![alt text](http://s3.amazonaws.com/creativetim_bucket/products/32/original/opt_lbd_thumbnail.jpg "Light Bootstrap Dashboard")
 
-### Screenshot
+Light Bootstrap Dashboard is an admin dashboard template designed to be beautiful and simple. It is built on top of Bootstrap 3 and it is fully responsive. It comes with a big collections of elements that will offer you multiple possibilities to create the app that best fits your needs. It can be used to create admin panels, project management systems, web applications backend, CMS or CRM.
 
-![ElaAdmin admin dashboard template preview](https://colorlib.com/wp/wp-content/uploads/sites/2/elaadmin-bootstrap-admin-dashboard.jpg)
+The product represents a big suite of front-end developer tools that can help you jump start your project. We have created it thinking about things you actually need in a dashboard. Light Bootstrap Dashboard contains multiple handpicked and optimised plugins. Everything is designed to fit with one another. As you will be able to see, the dashboard you can access on Creative Tim is a customisation of this product.
 
-### Demo Site: [Here](https://colorlib.com/polygon/elaadmin/index.html)
+It comes with 6 filter colors for the sidebar (“black”, “azure”,”green”,”orange”,”red”,”purple”) and an option to have a background image.
 
-### TOC
-- [Built With](#built-with)
-- [Changelog](#changelog)
-- [Authors](#authors)
-- [License](#license)
+Special thanks go to:
+Robert McIntosh for the notification system
+Chartist for the wonderful charts
+We are very excited to share this dashboard with you and we look forward to hearing your feedback!
 
-### Built With
+## Links:
 
-- [amCharts](https://www.amcharts.com/)
-- [barRating](http://github.com/antennaio/jquery-bar-rating)
-- [Bootstrap](http://getbootstrap.com/)
-- [C3](https://github.com/c3js/c3) - A D3-based reusable chart library
-- [Chart.js](http://www.chartjs.org/)
-- [Chartist.js](https://gionkunz.github.io/chartist-js/)
-- [Chosen](https://harvesthq.github.io/chosen/)
-- [DataMaps](http://datamaps.github.io/)
-- [dataTables](https://datatables.net/)
-- [Datepicker for Bootstrap](https://github.com/uxsolutions/bootstrap-datepicker)
-- [Dropzone.js](http://www.dropzonejs.com)
-- [ECharts](https://github.com/ecomfe/echarts/)
-- [Flot Charts](http://www.flotcharts.org/)
-- [Fontawesome](http://fontawesome.io/)
-- [FullCalendar](https://fullcalendar.io/)
-- [gauge.js](http://bernii.github.io/gauge.js/)
-- [gmaps](https://hpneo.github.io/gmaps/)
-- [Granim](https://sarcadass.github.io/granim.js)
-- [Highcharts JS](http://www.highcharts.com/)
-- [Ion.RangeSlider](https://github.com/IonDen/ion.rangeSlider)
-- [jQuery asScrollbar](https://github.com/amazingSurge/jquery-asScrollbar)
-- [jQuery Knob](https://github.com/aterrien/jQuery-Knob)
-- [jQuery Line Progressbar](https://kingrayhan.github.io/LineProgressbar/)
-- [jQuery Validation Plugin](http://jqueryvalidation.org/)
-- [jquery-circle-progress](http://kottenator.github.io/jquery-circle-progress/) - jQuery Plugin to draw animated circular progress bars
-- [jquery.sparkline](http://omnipotent.net/jquery.sparkline/)
-- [jQuery](https://jquery.com/)
-- [JQVMap](https://github.com/manifestinteractive/jqvmap/) - jQuery Vector Map Library
-- [JQVMap](https://jqvmap.com/)
-- [jRate](https://github.com/senthilporunan/jRate) - SVG based star Rating jQuery plugin
-- [jsgrid](https://github.com/tabalinas/jsgrid) - Lightweight Grid jQuery Plugin
-- [JustGage](http://www.justgage.com) - animated gauges using RaphaelJS
-- [Load Google Maps API](https://github.com/yuanqing/load-google-maps-api)
-- [metismenu](https://github.com/onokumus/metisMenu) - A simple jQuery menu plugin
-- [moment.js](https://momentjs.com)
-- [morris.js](http://morrisjs.github.io/morris.js/)
-- [Nestable jQuery Plugin](https://github.com/dbushell/Nestable)
-- [Owl Carousel](https://github.com/OwlCarousel2/OwlCarousel2)
-- [Pace](https://github.com/HubSpot/pace) - website preloader
-- [Peity](http://benpickles.github.io/peity)
-- [Peity](http://benpickles.github.io/peity/)
-- [Popper.js](https://popper.js.org/)
-- [Raphaël](https://github.com/DmitryBaranovskiy/raphael) - Cross-browser vector graphics
-- [Rickshaw](https://github.com/shutterstock/rickshaw)
-- [Sass](http://sass-lang.com/)
-- [Select2](https://github.com/select2/select2)
-- [simpleWeather](http://simpleweatherjs.com )
-- [Sticky-kit](https://github.com/leafo/sticky-kit)
-- [Sweetalert2](https://github.com/sweetalert2/sweetalert2)
-- [toastr](https://github.com/CodeSeven/toastr)
-- [wysihtml5](https://github.com/xing/wysihtml5)
++ [Live Preview](http://demos.creative-tim.com/light-bootstrap-dashboard)
++ [Video Tutorial](https://www.youtube.com/watch?v=c3M3NQtFyqM)
++ [Light Bootstrap Dashboard PRO](http://www.creative-tim.com/product/light-bootstrap-dashboard-pro) (from $39)
+
+## Quick start
+
+Quick start options:
+
+- [Download from Github](https://github.com/creativetimofficial/light-bootstrap-dashboard.git).
+- [Download from Creative Tim](http://www.creative-tim.com/product/light-bootstrap-dashboard).
+- Clone the repo: `git clone https://github.com/creativetimofficial/light-bootstrap-dashboard.git`.
 
 
-### Changelog
-#### V 1.0.0
-Initial Release
-### Authors
-[Colorlib](https://colorlib.com)
+### What's included
 
-### More info
-- [Bootstrap admin dashboards](https://colorlib.com/wp/free-bootstrap-admin-dashboard-templates/)
-- [Angular dashboards](https://colorlib.com/wp/angularjs-admin-templates/)
-- [Free Admin Dashboards](https://colorlib.com/wp/free-html5-admin-dashboard-templates/)
-- [Website Templates](https://colorlib.com/wp/templates/)
-- [WordPress Themes](https://colorlib.com/wp/free-wordpress-themes/)
+Within the download you'll find the following directories and files:
 
+```
+x_lbd_free/
+├── assets/
+|   ├── css/
+|   ├── js/
+|   ├── fonts/
+|   └── img/
+├── dashboard.html
+├── CHANGELOG.md
+├── documentation
+├── icons.html
+├── maps.html
+├── notifications.html
+├── table.html
+├── template.html
+├── typography.html
+├── upgrade.html
+└── user.html
+
+```
 ### License
 
-ElaAdmin is licensed under The MIT License (MIT). Which means that you can use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the final products. But you always need to state that Colorlib is the original author of this template.
+- Copyright 2017 Creative Tim (http://www.creative-tim.com)
+- Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard/blob/master/LICENSE.md)
+
+## Useful Links
+
+More products from Creative Tim: <http://www.creative-tim.com/products>
+
+Tutorials: <https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w>
+
+Freebies: <http://www.creative-tim.com/products>
+
+Affiliate Program (earn money): <http://www.creative-tim.com/affiliates/new>
+
+Social Media:
+
+Twitter: <https://twitter.com/CreativeTim>
+
+Facebook: <https://www.facebook.com/CreativeTim>
+
+Dribbble: <https://dribbble.com/creativetim>
+
+Google+: <https://plus.google.com/+CreativetimPage>
+
+Instagram: <https://instagram.com/creativetimofficial>
+
+
+[CHANGELOG]: ./CHANGELOG.md
+[LICENSE]: ./LICENSE.md
+[version-badge]: https://img.shields.io/badge/version-1.4.0-blue.svg
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
